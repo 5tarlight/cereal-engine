@@ -9,5 +9,12 @@
     "@babel/preset-stage-0": "^7.0.0",
     "@babel/runtime": "^7.7.2",
     "korean-logger": "^1.0.6"
+  },
+  "scripts": {
+    "start": "node bin/index",
+    "test": "node bin/index",
+    "pretest": "babel src -d bin --copy-files",
+    "build": "babel src -d bin --copy-files",
+    "watch": "babel src -w -d bin --copy-files"
   }
 }
