@@ -1,4 +1,13 @@
 {
+  "name": "cereal-engine",
+  "version": "1.0.0",
+  "description": "Open-source Free 3D engine",
+  "main": "bin/index",
+  "repository": "https://github.com/5tarlight/cereal-engine",
+  "author": "Kim Kyu San <developerstarlight@gmail.com>",
+  "license": "MIT",
+  "private": false,
+
   "dependencies": {
     "@babel/cli": "^7.7.0",
     "@babel/core": "^7.7.2",
@@ -10,6 +19,7 @@
     "@babel/runtime": "^7.7.2",
     "korean-logger": "^1.0.6"
   },
+  
   "scripts": {
     "start": "node bin/index",
     "test": "node bin/index",
