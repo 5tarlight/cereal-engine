@@ -7,7 +7,6 @@
   "author": "Kim Kyu San <developerstarlight@gmail.com>",
   "license": "MIT",
   "private": false,
-
   "dependencies": {
     "@babel/cli": "^7.7.0",
     "@babel/core": "^7.7.2",
@@ -17,12 +16,12 @@
     "@babel/preset-es2015": "^7.0.0-beta.53",
     "@babel/preset-stage-0": "^7.0.0",
     "@babel/runtime": "^7.7.2",
+    "electron": "^7.1.1",
     "korean-logger": "^1.0.6"
   },
-  
   "scripts": {
-    "start": "node bin/index",
-    "test": "node bin/index",
+    "start": "electron bin/",
+    "test": "electron bin/",
     "pretest": "babel src -d bin --copy-files",
     "build": "babel src -d bin --copy-files",
     "watch": "babel src -w -d bin --copy-files"
